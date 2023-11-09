@@ -1,0 +1,31 @@
+                        Issues encountered during project
+
+November 8th
+
+Issue#1 How to create Github repo for new project with folder on desktop
+Sol. https://www.youtube.com/watch?v=XNqUxk7gDHM&ab_channel=FullStackDeveloper28
+
+Issue#2 Git push failing for authentication error
+Sol. 
+- setup MFA
+- setup personal access token
+- login on web using personal access token
+https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
+
+Issue#3 can't upload large csv file
+Sol.
+- git reset origin/main
+- download git-filter-repo
+- run git-filter-repo.py --analyze
+- git filter-repo --strip-blobs-bigger-than 10M
+- git add .
+- git commit -m
+- git push origin main
+https://stackoverflow.com/questions/19858590/issues-with-pushing-large-files-through-git
+
+Issue#4 not able to read csv file from VScode, failing for importing module pandas/numpy(python 3.9)
+Sol. Change the Python interpreter to 3.6 in VSCode 
+
+Issue#5 how to read csv files using pandas
+Sol. https://www.youtube.com/watch?v=q5uM4VKywbA&ab_channel=CoreySchafer
+
